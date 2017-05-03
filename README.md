@@ -1,15 +1,14 @@
-# Sqljdbc4::Java
+# Sqljdbc4 gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sqljdbc4/java`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem vendors the Microsoft JDBC Driver 6.0 for SQL Server to be used with jruby.
+Its purpose is to be used with the activerrecord-sqlserver-adapter gem.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sqljdbc4-java'
+gem 'sqljdbc4', platform: :jruby, require: true
 ```
 
 And then execute:
@@ -18,15 +17,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sqljdbc4-java
+    $ gem install sqljdbc4
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'sqljdbc4'
+```
 
 ## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
