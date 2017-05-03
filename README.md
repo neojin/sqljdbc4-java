@@ -3,6 +3,8 @@
 This gem vendors the Microsoft JDBC Driver 6.0 for SQL Server to be used with jruby.
 Its purpose is to be used with the activerrecord-sqlserver-adapter gem.
 
+See: https://www.microsoft.com/en-us/download/confirmation.aspx?id=11774
+
 ## Installation
 
 Add this line to your application's Gemfile:
