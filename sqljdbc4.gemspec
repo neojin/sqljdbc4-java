@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{This gem vendors the Microsoft JDBC Driver 6.0 for SQL Server to be used with jruby.}
   spec.description   = %q{This gem vendors the Microsoft JDBC Driver 6.0 for SQL Server to be used with jruby. Its purpose is to be used with the activerrecord-sqlserver-adapter gem.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/iaddict/sqljdbc4-java"
 
   spec.platform      = "java"
 
